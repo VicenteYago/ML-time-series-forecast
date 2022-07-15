@@ -10,12 +10,9 @@ Proof of concept about fitting a model with the following restrictions:
 Point 3 its essential since makes well known statisticall models such as SARIMAX and Prophet out of the game. In order to solve this problem we need to use deep learning techniques in an conveniently adapted dataset.
 
 Models implemented : 
-
-- baseline : arima (univariate)
 - MLP 
-- LSTM
 
-
+The model was tested in a Walk Forward Validation with 5 steps.
 
 # Sources 
 - https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
