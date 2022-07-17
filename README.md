@@ -14,6 +14,8 @@ Proof of concept about fitting a model with the following restrictions:
 
 * The model was tested in a Walk Forward Validation with 6 steps.
 
+This MLP one-shot model is a good fit as a ML baseline model, the reader is encouraged to try more complex models such as based on Convolutional models or LSTMS.
+
 # Sources 
 - https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 - https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/
