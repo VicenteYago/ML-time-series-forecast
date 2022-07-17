@@ -1,5 +1,7 @@
 # ML-time-series-forecast
 
+## Summary
+
 Proof of concept about fitting a model with the following restrictions: 
 
 1. The dataset must be **multivariate**
@@ -16,7 +18,15 @@ Proof of concept about fitting a model with the following restrictions:
 
 This MLP one-shot model is a good fit as a ML baseline model, the reader is encouraged to try more complex models such as based on Convolutional models or LSTMS.
 
-# Sources 
+## Improvements
+The current notebook was developed in a short time, I would lik to appoint some improvements that can be implemented, in order : 
+
+1. Add a baseline: Concretely I would like to test the model agains a seasonal naive forecast
+2. More feature engineering: encode wind direction as numerical and encode a smoothed version of the dependant variable as regressor
+3. Test more complex architectures inside the MLP scheme, I have tried some informal guesses varying the hidden neurons nº, but more research can be done (both in extension and documentation the results)
+3. Give the step and try with convolution and LSTM models
+
+## Sources 
 - https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 - https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/
 - https://pangkh98.medium.com/multi-step-multivariate-time-series-forecasting-using-lstm-92c6d22cd9c2
