@@ -22,7 +22,7 @@ This MLP one-shot model is a good fit as a ML baseline model, the reader is enco
 The current notebook was developed in a short time, I would like to appoint some improvements that can be implemented, in order : 
 
 1. Add a baseline: Concretely I would like to test the model agains a seasonal naive forecast
-2. More feature engineering: encode wind direction as numerical and encode a smoothed version of the dependant variable as regressor
+2. More feature engineering: encode wind direction as numerical and add a smoothed version of the dependant variable as regressor
 3. Test more complex architectures inside the MLP scheme, I have tried some informal guesses varying the hidden neurons nº, but more research can be done (both in extension and documentation the results)
 3. Give the step and try with convolution and LSTM models
 
