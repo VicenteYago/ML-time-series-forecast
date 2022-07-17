@@ -3,16 +3,18 @@
 Proof of concept about fitting a model with the following restrictions: 
 
 1. The dataset must be **multivariate**
-
 2. The dependant variable should **not have stationality**, but the regressors can.
 3. The prediction must be done **without providing exogenous regressors** in any point of the "future"
+4. The forecast horizont must be 100
 
-Point 3 its essential since makes well known statisticall models such as SARIMAX and Prophet out of the game. In order to solve this problem we need to use deep learning techniques in an conveniently adapted dataset.
 
-Models implemented : 
-- MLP 
+* Point 3 its essential since makes well known statisticall models such as SARIMAX and Prophet out of the game. In order to solve this problem we need to use deep learning techniques in an conveniently adapted dataset.
 
-The model was tested in a Walk Forward Validation with 5 steps.
+* The implemented model is a MLP multivariate multistep  - "one shot", wich predicts a vector of 100 observations given 300.
+
+* The model was tested in a Walk Forward Validation with 6 steps.
+
+This MLP one-shot model is a good fit as a ML baseline model, the reader is encouraged to try more complex models such as based on Convolutional models or LSTMS.
 
 # Sources 
 - https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
