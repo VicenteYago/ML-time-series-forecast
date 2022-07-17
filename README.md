@@ -19,7 +19,7 @@ Proof of concept about fitting a model with the following restrictions:
 This MLP one-shot model is a good fit as a ML baseline model, the reader is encouraged to try more complex models such as based on Convolutional models or LSTMS.
 
 ## Improvements
-The current notebook was developed in a short time, I would lik to appoint some improvements that can be implemented, in order : 
+The current notebook was developed in a short time, I would like to appoint some improvements that can be implemented, in order : 
 
 1. Add a baseline: Concretely I would like to test the model agains a seasonal naive forecast
 2. More feature engineering: encode wind direction as numerical and encode a smoothed version of the dependant variable as regressor
