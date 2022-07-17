@@ -20,3 +20,4 @@ The model was tested in a Walk Forward Validation with 5 steps.
 - https://pangkh98.medium.com/multi-step-multivariate-time-series-forecasting-using-lstm-92c6d22cd9c2
 - https://www.kaggle.com/code/nicapotato/keras-timeseries-multi-step-multi-output/notebook
 - https://towardsdatascience.com/lagged-mlp-for-predictive-maintenance-of-turbofan-engines-c79f02a15329
+- https://www.tensorflow.org/tutorials/structured_data/time_series#baselines
